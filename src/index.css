@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', 'Newsreader', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #2D2D2D;
+    background-color: #FAF9F6;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+  }
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Custom smooth natural-toned scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F2F1EC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D1CFB9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7A7E6B;
+}
+
+/* Natural textures & tones */
+.bg-natural-sand {
+  background-color: #FAF9F6;
+}
+
+.bg-natural-stone {
+  background-color: #F2F1EC;
+}
+
+.bg-natural-olive {
+  background-color: #5A6344;
+}
+
+.bg-natural-earth {
+  background-color: #A67C52;
+}
+
+.bg-natural-dark {
+  background-color: #2E3324;
+}
